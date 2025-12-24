@@ -19,15 +19,15 @@ Ce projet a été réalisé dans le cadre du **module EDA (Exploratory Data Anal
 * Identifier les **facteurs clés** qui influencent la probabilité d’un second rendez-vous.
 * Comparer :
 
-  * ce que les participants **pensent** important,
+  * ce que les participants **pensent** important
   * et ce qui **fonctionne réellement** dans la prise de décision.
 
 ### Objectif business (Tinder)
 
 * Aider Tinder à :
 
-  * améliorer son **algorithme de matching**,
-  * optimiser la **présentation des profils**,
+  * améliorer son **algorithme de matching**
+  * optimiser la **présentation des profils**
   * augmenter le **taux de match réel** et la satisfaction utilisateur.
 
 ---
@@ -70,14 +70,14 @@ L’objectif n’était pas de construire un pipeline complexe, mais de garantir
 
 * suppression des lignes sans :
 
-  * variable cible,
-  * âge,
-  * genre ;
-* sélection des variables pertinentes pour l’analyse ;
+  * variable cible
+  * âge
+  * genre
+* sélection des variables pertinentes pour l’analyse
 * création de variables dérivées :
 
   * `gender_label` (Homme / Femme),
-  * `same_race` (1 si même origine, 0 sinon) ;
+  * `same_race` (1 si même origine, 0 sinon)
 * contrôle des valeurs manquantes sur les variables clés.
 
 Choix assumé : **simplicité, transparence, pédagogie**, adaptés à un projet de fin de module EDA.
@@ -142,13 +142,13 @@ Comparaison de deux leviers souvent évoqués dans le matching :
 
 Comparaison entre :
 
-* auto-évaluation des participants,
-* notes reçues par les autres.
+* auto-évaluation des participants
+* notes reçues par les autres
 
 Résultat :
 
-* corrélations positives mais faibles,
-* nombreux cas de surestimation ou sous-estimation.
+* corrélations positives mais faibles
+* nombreux cas de surestimation ou sous-estimation
 
 ➡️ Les utilisateurs ont une perception imparfaite de leur attractivité réelle.
 
@@ -158,8 +158,8 @@ Résultat :
 
 Analyse de l’effet du moment du rendez-vous (début vs fin) :
 
-* léger effet possible (fatigue ou échauffement),
-* impact global limité par rapport aux critères relationnels.
+* léger effet possible (fatigue ou échauffement)
+* impact global limité par rapport aux critères relationnels
 
 ➡️ L’ordre joue moins que la qualité perçue de l’échange.
 
@@ -178,8 +178,8 @@ Analyse de l’effet du moment du rendez-vous (début vs fin) :
 
 * Valoriser davantage :
 
-  * sincérité / intelligence pour les profils masculins vus par des femmes,
-  * fun / visuel pour les profils féminins vus par des hommes.
+  * sincérité / intelligence pour les profils masculins vus par des femmes
+  * fun / visuel pour les profils féminins vus par des hommes
 
 ### 3. Proposer un coaching de profil
 
@@ -207,9 +207,9 @@ Analyse de l’effet du moment du rendez-vous (début vs fin) :
 
 Ce projet montre que :
 
-* l’attractivité reste importante,
-* mais que le **fun** et surtout les **intérêts partagés** sont des leviers majeurs,
-* largement sous-estimés par les utilisateurs eux-mêmes.
+* l’attractivité reste importante
+* mais que le **fun** et surtout les **intérêts partagés** sont des leviers majeurs
+* largement sous-estimés par les utilisateurs eux-mêmes
 
 👉 Pour Tinder, mieux exploiter ces dimensions représente une **opportunité forte d’augmentation du taux de match réel**, tout en améliorant la qualité des rencontres.
 
