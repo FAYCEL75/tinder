@@ -1,3 +1,5 @@
+Link to github [project](https://github.com/FAYCEL75/tinder)
+
 # Speed Dating avec Tinder — Analyse Exploratoire des Données (EDA)
 
 ## Contexte du projet
